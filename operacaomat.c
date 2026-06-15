@@ -15,10 +15,10 @@ int main()
     scanf("%c",& operacao);
 
     float num1, num2, resultado;
-    printf("Digite o primeiro número");
+    printf("Digite o primeiro número: ");
     scanf("%f", & num1);
 
-    printf("Digite o segundo número:");
+    printf("Digite o segundo número: \n");
     scanf("%f",& num2);
     
     switch (operacao)
