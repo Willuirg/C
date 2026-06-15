@@ -13,6 +13,12 @@ int main()
     printf("   /   Para divisão\n");
     printf("Escolha a sua operação:  ");
     scanf("%c",& operacao);
+    
+    if (operacao != "+" && operacao != "-" && operacao != "*" && operacao != "/" )
+    {
+        printf("Digite uma operação válida\n");
+        return 0;
+    }  
 
     float num1, num2, resultado;
     printf("Digite o primeiro número: ");
