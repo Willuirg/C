@@ -6,12 +6,12 @@
 int main()
 {
     char operacao;
-    printf("----- Escolha a opção -----");
-    printf("   +   Para adição");
-    printf("   -   Para subtração");
-    printf("   *   Para multiplicação");
-    printf("   /   Para divisão");
-    printf("Escolha a sua operação");
+    printf("----- Escolha a opção -----\n");
+    printf("   +   Para adição\n");
+    printf("   -   Para subtração\n");
+    printf("   *   Para multiplicação\n");
+    printf("   /   Para divisão\n");
+    printf("Escolha a sua operação:  ");
     scanf("%c",& operacao);
 
     float num1, num2, resultado;
